@@ -23,6 +23,7 @@ public class SpringreactApplication {
         logger.info("Hello spring I'm here for you");
     }
 
+    //The CommandLineRunner allow us to execute some additional code just before the App is fully started
     @Bean
     CommandLineRunner runner(){
         return args -> {
