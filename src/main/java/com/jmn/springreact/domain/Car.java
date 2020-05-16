@@ -1,5 +1,7 @@
 package com.jmn.springreact.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -41,6 +43,7 @@ public class Car {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="owner")
+    @JsonIgnore
     private Owner owner;
 
     @Column(name = "desc", nullable = false, length = 512)
