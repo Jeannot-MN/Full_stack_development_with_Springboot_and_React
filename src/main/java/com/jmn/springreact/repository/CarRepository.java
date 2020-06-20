@@ -1,5 +1,6 @@
-package com.jmn.springreact.domain;
+package com.jmn.springreact.repository;
 
+import com.jmn.springreact.domain.Car;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 

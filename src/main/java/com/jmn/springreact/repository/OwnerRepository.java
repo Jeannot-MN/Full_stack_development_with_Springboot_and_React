@@ -1,5 +1,6 @@
-package com.jmn.springreact.domain;
+package com.jmn.springreact.repository;
 
+import com.jmn.springreact.domain.Owner;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
